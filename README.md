@@ -5,7 +5,7 @@ We collect a total of **21 flight trajectories** in Xi’an and Weinan, Shaanxi,
 ![XIAN-Visloc](docs/XIAN-Visloc.png)
 ## 2.Constrution of the Satellite image library of XIAN-Visloc and UAV-Visloc
 1. Download [XIAN-Visloc](https://huggingface.co/datasets/VERYBC/XIAN_Visloc) and [UAV-Visloc](https://github.com/IntelliSensing/UAV-VisLoc?tab=readme-ov-file) .
-2. Build training and testing sets using the .py files in **scripts** folder.
+2. Build train and test sets using the .py files in **scripts** folder.
 * Due to the large size of the constructed satellite image library, we recommend scaling the satellite image resolution to the required resolution in advance, that is, modifying the **target_size** in the file.
 ## 3.Test on XIAN-Visloc and UAV-Visloc
 We will soon supplement the code ！
