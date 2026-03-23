@@ -28,7 +28,7 @@ We collect a total of **21 flight trajectories** in Xi’an and Weinan, Shaanxi,
 
 1. Retrieval results
 
-   - Download the model weight files [Google](https://huggingface.co/datasets/VERYBC/XIAN_Visloc) and place them in the `checkpoints/` directory.
+   - Download the model weight files [[Google]](https://drive.google.com/drive/folders/1E2IXkT4bqmuNL_bT2Fo20K0c39E1pOCI?usp=drive_link) and place them in the `checkpoints/` directory.
      
    - Run the evaluation script: `python eval_real_world.py`, you will get:  
 
