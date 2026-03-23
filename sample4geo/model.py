@@ -28,16 +28,16 @@ class TimmModel_mix(nn.Module):
 
         if "Tiny" in model_name:
             self.model1 = timm.create_model('convnextv2_nano.fcmae_ft_in22k_in1k_384', pretrained=pretrained, num_classes=0)
-            # self.model2 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vits14_reg')
+            self.model2 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vits14_reg')
             # local loading
-            self.model2 = torch.hub.load(current_dir + '/model_lib/dinov2/facebookresearch_dinov2_main/','dinov2_vits14_reg', trust_repo=True, source='local')
-            self.model2.load_state_dict(torch.load(current_dir + '/model_lib/dinov2/dinov2_vits14_reg4_pretrain.pth'))
+            # self.model2 = torch.hub.load(current_dir + '/model_lib/dinov2/facebookresearch_dinov2_main/','dinov2_vits14_reg', trust_repo=True, source='local')
+            # self.model2.load_state_dict(torch.load(current_dir + '/model_lib/dinov2/dinov2_vits14_reg4_pretrain.pth'))
         elif "Base" in model_name:
             self.model1 = timm.create_model('convnextv2_tiny.fcmae_ft_in22k_in1k_384', pretrained=pretrained, num_classes=0)
-            # self.model2 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitb14_reg')
+            self.model2 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitb14_reg')
             # local loading
-            self.model2 = torch.hub.load(current_dir + '/model_lib/dinov2/facebookresearch_dinov2_main/','dinov2_vitb14_reg', trust_repo=True, source='local')
-            self.model2.load_state_dict(torch.load(current_dir + '/model_lib/dinov2/dinov2_vitb14_reg4_pretrain.pth'))
+            # self.model2 = torch.hub.load(current_dir + '/model_lib/dinov2/facebookresearch_dinov2_main/','dinov2_vitb14_reg', trust_repo=True, source='local')
+            # self.model2.load_state_dict(torch.load(current_dir + '/model_lib/dinov2/dinov2_vitb14_reg4_pretrain.pth'))
 
         self.region_size = 10
         
