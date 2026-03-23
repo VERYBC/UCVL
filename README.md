@@ -51,6 +51,8 @@ We collect a total of **21 flight trajectories** in Xi’an and Weinan, Shaanxi,
 
 ### 3.3. Fine localization
 
+   - Download the LoFTR model [weight files](https://drive.google.com/drive/folders/1DOcOPZb3-5cWxLqn256AhwUVjBPifhuf) and place them in the `feature_match/LoFTR/weights` directory.
+
    - Run `Fine_localization.py`, the result will be saved to 'feature_match/results'.
      
    - Run `Fine_localization_result.py`, you will get:
