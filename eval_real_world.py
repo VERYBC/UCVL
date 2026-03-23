@@ -46,7 +46,7 @@ class Configuration:
 
     # Retrieval methods
     if_SC_GA = True   # Semantic-space clustering and Geospatial aggregation
-    if_CM = False     # Center-region matching method, it requires a significant amount of CPU memory
+    if_CM = True      # Center-region matching method, it requires a significant amount of CPU memory
 
     # save and read features
     save_feature: bool = True # To output the positioning result, it needs to be set to True
