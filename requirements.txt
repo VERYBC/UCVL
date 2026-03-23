@@ -1,0 +1,12 @@
+- Python 3.9  
+- PyTorch 2.5.1 (CUDA 12.1)  
+- Torchvision 0.20.1  
+- Torchaudio 2.4.0  
+- NumPy 1.26.4  
+- SciPy 1.13.1  
+- Scikit-learn 1.6.1  
+- OpenCV 4.10.0  
+- Pillow 11.1.0  
+- Albumentations 2.0.8  
+- Timm 1.0.24  
+- Transformers 4.48.0  
