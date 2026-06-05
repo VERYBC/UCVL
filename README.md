@@ -69,7 +69,24 @@ We collect a total of **21 flight trajectories** in Xi’an and Weinan, Shaanxi,
    📌 The above results are obtained using an image resolution of 392 × 392. Using the original resolution will reproduce the results reported in the paper. The LoFTR model consistently uses a resolution of 1024.
 
    📌 The results of RoMa and RoMav2 may exhibit slight variations.
-   
+
+
+## 4. Acknowledgement
+This repository is built using the [Sample4Geo](https://github.com/Skyy93/Sample4Geo).
+
+## 5. Citation
+If you find this repository useful for your publications, please consider citing our paper.
+
+@article{bi2026uav,
+  title={UAV coarse visual localization in large-scale continuous scenes},
+  author={Bi, Cheng and Wang, Jingfeng and Li, Zhengxi and Zhao, Yang and Jiang, Zhiyu and Yuan, Yuan and Liu, Ganchao},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={238},
+  pages={243--260},
+  year={2026},
+  publisher={Elsevier}
+}
+
      
 
      
