@@ -77,16 +77,17 @@ This repository is built using the [Sample4Geo](https://github.com/Skyy93/Sample
 ## 5. Citation
 If you find this repository useful for your publications, please consider citing our paper.
 
+```bibtex
 @article{bi2026uav,
-  title={UAV coarse visual localization in large-scale continuous scenes},
-  author={Bi, Cheng and Wang, Jingfeng and Li, Zhengxi and Zhao, Yang and Jiang, Zhiyu and Yuan, Yuan and Liu, Ganchao},
-  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
-  volume={238},
-  pages={243--260},
-  year={2026},
-  publisher={Elsevier}
+     title={UAV coarse visual localization in large-scale continuous scenes},  
+     author={Bi, Cheng and Wang, Jingfeng and Li, Zhengxi and Zhao, Yang and Jiang, Zhiyu and Yuan, Yuan and Liu, Ganchao},  
+     journal={ISPRS Journal of Photogrammetry and Remote Sensing},  
+     volume={238},  
+     pages={243--260},  
+     year={2026},  
+     publisher={Elsevier}  
 }
-
+```
      
 
      
